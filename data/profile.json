@@ -1,78 +1,155 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Pedro Henrique Faber",
+  "photo": "./assets/img/my-photo.png",
+  "job": "Full Stack Developer | IT Analyst",
+  "location": "Cabreúva - SP",
+  "email": "pedrohfaber@gmail.com",
+  "social": {
+  "github": "https://github.com/pedrohfaber-design",
+  "linkedin": "https://www.linkedin.com/in/pedro-henrique-faber-a52a25252/"
+},
+  "about": "Desenvolvedor Full Stack e Analista de TI, formado em Análise e Desenvolvimento de Sistemas e atualmente cursando Gestão da Tecnologia da Informação na FATEC. Tenho experiência prática com desenvolvimento web, suporte, infraestrutura e redes, além de conhecimentos em automação e análise de dados. Atualmente, busco aprofundar meus conhecimentos em desenvolvimento de software por meio de projetos práticos e novas tecnologias.",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "JavaScript",
+        "logo": "./data/imgs/js.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-      },
-      {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "TypeScript",
+        "logo": "./data/imgs/typescript.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "./data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "Node.js",
+        "logo": "./data/imgs/nodejs.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
-      }
+        "name": "Python",
+        "logo": "./data/imgs/python.png"
+      },
+      {
+        "name": "Rust",
+        "logo": "./data/imgs/rust.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "./data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "./data/imgs/css.png"
+      },
+      {
+        "name": "Git",
+        "logo": "./data/imgs/git.png"
+      },
+      {
+        "name": "GitHub",
+        "logo": "./data/imgs/github.png"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "./data/imgs/postgresql.png"
+      },
+      {
+      "name": "MySQL",
+  "logo": "./data/imgs/mysql.png"
+},
+{
+  "name": "Docker",
+  "logo": "./data/imgs/docker.png"
+}
     ],
     "softSkills": [
-      "Empatia",
-      "Liderança",
       "Trabalho em equipe",
-      "Flexibilidade",
-      "Organização"
+      "Organização",
+      "Resolução de problemas",
+      "Aprendizado contínuo",
+      "Adaptabilidade"
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Português - Nativo",
+    "Inglês - Avançado",
+    "Espanhol - Intermediário"
   ],
+  "education": [
+  {
+    "course": "Gestão da Tecnologia da Informação",
+    "institution": "FATEC",
+    "status": "02/2025 - 12/2027 (previsão)"
+  },
+  {
+    "course": "Análise e Desenvolvimento de Sistemas",
+    "institution": "UniBF",
+    "status": "09/2025 - 06/2026"
+  }
+],
+"certifications": [
+  {
+    "name": "Santander 2026 - Rust AI Developer",
+    "institution": "DIO / Santander",
+    "description": "Bootcamp com foco em desenvolvimento utilizando Rust, inteligência artificial e desenvolvimento de aplicações."
+  },
+  {
+    "name": "Python - Advanced Module",
+    "institution": "Huawei",
+    "description": "Formação avançada em Python, abordando conceitos e práticas de desenvolvimento com a linguagem."
+  },
+  {
+    "name": "Microsoft Power BI",
+    "institution": "SENAI Ítalo Bologna",
+    "description": "Conhecimentos em análise, transformação e visualização de dados utilizando Power BI."
+  }
+],
   "portfolio": [
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-      "github": true
-    }
+  {
+    "name": "Pokédex",
+    "description": "Aplicação web desenvolvida com JavaScript para consumir e exibir dados de Pokémon de forma dinâmica.",
+    "technologies": ["JavaScript", "HTML", "CSS", "REST API"],
+    "url": "https://github.com/pedrohfaber-design/kanto-pokedex",
+    "demo": "https://pedrohfaber-design.github.io/kanto-pokedex/",
+    "github": true
+  },
+  {
+    "name": "Portfólio Profissional",
+    "description": "Portfólio pessoal dinâmico desenvolvido para apresentar meus projetos, habilidades, formação e experiência profissional.",
+    "technologies": ["JavaScript", "HTML", "CSS", "JSON"],
+    "url": "https://github.com/pedrohfaber-design/My-Portfolio",
+    "demo": "",
+    "github": true
+  },
+  {
+  "name": "EcoPoint - Full Stack",
+  "description": "Aplicação Full Stack voltada à localização e ao cadastro de pontos de coleta de materiais recicláveis, desenvolvida durante o Bootcamp Santander 2026 - Rust AI Developer.",
+  "technologies": [
+    "Rust",
+    "React",
+    "TypeScript",
+    "PostgreSQL",
+    "REST API"
   ],
+  "url": "https://github.com/pedrohfaber-design/ecopoint",
+  "frontend": "https://github.com/pedrohfaber-design/ecopoint-web",
+  "demo": "",
+  "github": true
+}
+  
+],
   "professionalExperience": [
-    {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-    },
-    {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
-    }
-  ]
+  {
+    "name": "Analista de TI - Colégio Divino Salvador",
+    "period": "08/2025 - Atual",
+    "description": "Atuação em suporte e infraestrutura de TI, manutenção de equipamentos, redes e sistemas, configuração de dispositivos, resolução de problemas técnicos e atendimento aos usuários."
+  },
+  {
+    "name": "Operador Logístico - Renner",
+    "period": "04/2025 - 08/2025",
+    "description": "Atuação em operações logísticas, organização de processos e materiais, cumprimento de procedimentos operacionais e trabalho em equipe."
+  }
+]
 }

@@ -1,12 +1,31 @@
-footer {
-    width: 100%;
+.footer {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 2rem;
+    padding: 1.5rem 1rem .5rem;
+
+    border-top: 1px solid var(--border);
+
+    text-align: center;
 }
 
-footer img {
-    max-width: 100px;
+.footer p {
+    margin: .25rem 0;
+
+    color: var(--text-secondary);
+    font-size: .85rem;
+}
+
+.footer strong {
+    color: var(--text);
+}
+
+.footer-tech {
+    font-size: .75rem !important;
+    opacity: .7;
 }

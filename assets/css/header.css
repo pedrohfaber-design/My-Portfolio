@@ -2,56 +2,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-}
 
-.header::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 2rem;
-    height: 2rem;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url('../img/icons/header.svg');
+    position: relative;
+
+    padding: 1.5rem 0 2rem;
 }
 
 .header .photo {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
+
+    object-fit: cover;
+
+    border: 3px solid rgba(124, 108, 255, 0.6);
     border-radius: 50%;
+
+    box-shadow: 0 0 35px rgba(124, 108, 255, 0.15);
 }
 
 .header .title {
-    font-family: 'Neue Machina';
+    margin: 1.25rem 0;
+
+    font-family: 'Neue Machina', sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+
     text-align: center;
+}
+
+.header .title span {
+    color: var(--primary-light);
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
     width: 100%;
 }
 
 .information p {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin: .5rem;
-    font-size: 1.125rem;
+
+    margin: .4rem 0;
+
+    color: var(--text-secondary);
+    font-size: .95rem;
 }
 
 .information p::before {
     content: '';
+
     display: inline-block;
+
     width: 1rem;
     height: 1rem;
+
+    margin-right: .6rem;
+
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: .5rem;
+
+    opacity: .85;
 }
 
 .information .job::before {
@@ -66,28 +80,70 @@
     background-image: url('../img/icons/email.svg');
 }
 
-.information .phone::before {
-    background-image: url('../img/icons/phone.svg');
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: .75rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    padding: .55rem 1rem;
+
+    border: 1px solid var(--border);
+    border-radius: .65rem;
+
+    background: var(--surface);
+
+    color: var(--text);
+    font-size: .85rem;
+    font-weight: 700;
+
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        border-color .2s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+
+    background: var(--surface-hover);
+    border-color: var(--primary);
 }
 
 @media only screen and (min-width: 768px) {
     .header {
         display: grid;
+
+        grid-template-columns: 220px 1fr;
+
         grid-template-areas:
             "photo title"
-            "photo information"
-        ;
+            "photo information";
+
+        column-gap: 2.5rem;
+
+        padding: 2rem;
     }
 
     .header .photo {
         grid-area: photo;
-        margin: 0 auto;
+
+        width: 180px;
+        height: 180px;
+
+        margin: auto;
     }
 
     .header .title {
         grid-area: title;
-        text-align: start;
-        max-width: 210px;
+
+        margin: 0 0 1rem;
+
+        font-size: 2.5rem;
+        text-align: left;
     }
 
     .header .information {
