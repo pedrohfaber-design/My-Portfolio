@@ -120,7 +120,7 @@
     "description": "Portfólio pessoal dinâmico desenvolvido para apresentar meus projetos, habilidades, formação e experiência profissional.",
     "technologies": ["JavaScript", "HTML", "CSS", "JSON"],
     "url": "https://github.com/pedrohfaber-design/My-Portfolio",
-    "demo": "",
+    "demo": "https://pedrohfaber-design.github.io/My-Portfolio/",
     "github": true
   },
   {
